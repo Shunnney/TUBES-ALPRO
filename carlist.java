@@ -1,19 +1,21 @@
+import java.util.ArrayList;
+
 public class carlist {
     void thecarlist() {
-        int []price = base.price;
-        String []brand = base.brand;
-        PPN carpricewppn = new PPN();
-        carpricewppn.PPN(); 
+        ArrayList<Integer> price = Menu.price;
+        ArrayList<String> brand = Menu.brand; 
+        ArrayList<Integer> ppn = Menu.ppn;
+
+        PPN obj1 = new PPN();
+        obj1.PPNmobil();
 
         System.out.println("##############################");
         System.out.println("Car price list");
         System.out.println("##############################");
-        for (int i = 1; i < price.length; i++) {
-            if (price[i] != 0) {
-                System.out.print("Car brand : " + brand[i]+" || ");
-                System.out.println("car price : " + price[i]);
-                System.out.println("car price with ppn : "+ );
-            }
+        for (int i = 0; i < price.size(); i++) {
+                System.out.print("Car brand : " + brand.get(i)+" || ");
+                System.out.println("car price : " + price.get(i));
+                System.out.println("car price with ppn : "+ ppn ); 
         }
     }
 }
