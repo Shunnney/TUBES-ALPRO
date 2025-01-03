@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Menu {
     public static ArrayList<Integer>price = new ArrayList<>();
     public static ArrayList<String>brand = new ArrayList<>();
+    public static ArrayList<Integer>ppn = new ArrayList<>();
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
