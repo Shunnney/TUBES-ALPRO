@@ -11,7 +11,7 @@ public class carlistedit {
         System.out.println("Edit Car List"); 
         System.out.println("##################################");
 
-        for (int i = 1; i < price.size(); i++) {
+        for (int i = 0; i < price.size(); i++) {
          
                 System.out.print(number +" brand Mobil : " + brand.get(i)+" ||");
                 System.out.println("price Mobil : " + price.get(i));
