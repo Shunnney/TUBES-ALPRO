@@ -14,7 +14,8 @@ public class Menu {
             System.out.println("2. Car list");
             System.out.println("3. Car list edit");
             System.out.println("4. Car filter");
-            System.out.println("5. Done");
+            System.out.println("5. Delete");
+            System.out.println("6. Done");
             System.out.println("######################################");
             int value = input.nextInt();
             switch (value) {
@@ -36,9 +37,15 @@ public class Menu {
                 case 4:
                 carfilter things3 = new carfilter();
                 things3.docarfilter();
+                things3.minprice();
                 break;
 
                 case 5:
+                Delete things4 = new Delete();
+                things4.doDelete();
+                break;
+
+                case 6:
                 input.close();
                 System.exit(0);
                 break;
