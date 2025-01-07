@@ -13,16 +13,16 @@ public class carlistedit {
 
         for (int i = 0; i < price.size(); i++) {
          
-                System.out.print(number +" brand Mobil : " + brand.get(i)+" ||");
-                System.out.println("price Mobil : " + price.get(i));
+                System.out.print(number +"  Car Brand : " + brand.get(i)+" ||");
+                System.out.println("  Car Price : " + price.get(i));
                 number++;
             
         }
         System.out.println("##################################");
-        int sellect = input.nextInt();
+        int sellect = input.nextInt(); 
         
             if (sellect > 0 &&sellect <= price.size()) {
-                System.out.println("brand mobil : "+ brand.get(sellect)+" || price mobil : "+ brand.get(sellect));
+                System.out.println("Car Brand : "+ brand.get(sellect)+" || Car Price : "+ price.get(sellect));
                 System.out.println("##################################");
                 System.out.println("Enter the car brand : ");
                 brand.set(sellect, input.next());
