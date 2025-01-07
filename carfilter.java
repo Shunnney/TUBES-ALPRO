@@ -16,10 +16,10 @@ public class carfilter {
                 maxppn = ppn.get(i);
             }
         }
-        System.out.println("brand Mobil "+maxbrand + " || price Mobil : " + max +" || price PPN : " + maxppn);
+        System.out.println("Highest Price || Car Brand "+maxbrand + " || Car Price : " + max +" || price PPN : " + maxppn);
     } 
 
-    void nilaiterendah() {
+    void minprice() {
         ArrayList<Integer> price = Menu.price;
         ArrayList<String> brand = Menu.brand;
         ArrayList<Integer> ppn = Menu.ppn;
@@ -34,7 +34,7 @@ public class carfilter {
                 minppn = ppn.get(i);
             }
         }
-        System.out.println("brand Mobil "+minbrand + " || price Mobil : " + min +" || price PPN : " + minppn);
+        System.out.println("Lowest Price || Car Brand "+ minbrand + " || Car Price : " + min +" || price PPN : " + minppn);
 
     }
 }
