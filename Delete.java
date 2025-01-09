@@ -17,6 +17,7 @@ public class Delete {
     }
     System.out.println("################################");
         int sellect = input.nextInt();
+        
             if (sellect > 0 &&sellect <= price.size()) {
                 sellect--;
                 price.remove(sellect);

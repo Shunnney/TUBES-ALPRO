@@ -21,7 +21,9 @@ public class carlistedit {
         System.out.println("##################################");
         int sellect = input.nextInt(); 
         
+        
             if (sellect > 0 &&sellect <= price.size()) {
+                sellect --;
                 System.out.println("Car Brand : "+ brand.get(sellect)+" || Car Price : "+ price.get(sellect));
                 System.out.println("##################################");
                 System.out.println("Enter the car brand : ");
