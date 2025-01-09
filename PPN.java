@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class PPN {
     void PPNmobil(){
+        
         ArrayList<Integer> price = Menu.price;
         ArrayList<Integer> ppn = Menu.ppn;
 
