@@ -10,7 +10,7 @@ public class Menu {
         Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("########### RIDEVIBE DEALER ##########");
-            System.out.println("1. Input car brand");
+            System.out.println("1. Input car brand and price");
             System.out.println("2. Car list");
             System.out.println("3. Car list edit");
             System.out.println("4. Car filter");
