@@ -12,6 +12,7 @@ public class carlist {
         System.out.println("##############################");
         System.out.println("Car price list");
         System.out.println("##############################");
+        
         for (int i = 0; i < price.size(); i++) {
                 System.out.print(" Car brand : " + brand.get(i)+" || ");
                 System.out.println(" car price : " + price.get(i));
