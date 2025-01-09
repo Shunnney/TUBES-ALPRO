@@ -3,6 +3,7 @@ import java.util.ArrayList;
 
 public class Inputcarlist {
     void inputingcarlist() {
+        
         ArrayList<Integer> price = Menu.price;
         ArrayList<String> brand = Menu.brand;
         Scanner input = new Scanner(System.in);
