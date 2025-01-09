@@ -9,6 +9,7 @@ public class carfilter {
         int max = price.get(0);
         String maxbrand = brand.get(0);
         int maxppn = ppn.get(0);
+        
         for (int i = 0; i < price.size(); i++) {
             if (price.get(i) > max) {
                 max = price.get(i);
