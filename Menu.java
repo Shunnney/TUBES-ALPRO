@@ -19,6 +19,7 @@ public class Menu {
             System.out.println("######################################");
             int value = input.nextInt();
             switch (value) {
+                
                 case 1:
                 Inputcarlist thing = new Inputcarlist();
                 thing.inputingcarlist();
